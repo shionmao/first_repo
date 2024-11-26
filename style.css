@@ -1,0 +1,63 @@
+body{
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 25%;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid black;
+    display:inline-block;
+    padding: 8px;
+}
+
+.titulo{
+    float: right;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.input-resultado{
+    height: 80px;
+    width: 90%;
+    margin: 12px;
+    font-size: 50px;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.numeros, .operaciones{
+    height: 60px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 16.2px;
+    float: left;
+}
+
+button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.limpiar{
+    width: 90%;
+    height: 50px; 
+    margin: 15px;   
+    background-color: gray;
+    border: 1px solid black;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
